@@ -1,6 +1,6 @@
 // // const { x } = require("joi");
 
-const { compile } = require("joi");
+// const { compile } = require("joi");
 
 // // const Same  = (arr1,arr2 ) => {
 // //   var tool  = {
@@ -45,35 +45,40 @@ const { compile } = require("joi");
 // average ()
 // {
 // let average = this.mrak.reduce( (a,b) => {
-//   return a + b
-// });
-// return average / this.mrak.length;
+// //   return a + b
+// // });
+// // return average / this.mrak.length;
 
 
+// // }
+// // }
+
+
+// // const Nitin = new Student( "vikas","singh",35);
+
+// // console.log(Nitin.marklate());
+// // console.log(Nitin.marklate());
+// // console.log(Nitin.marklate());
+// // console.log(Nitin.marklate());
+
+
+
+// class Point {
+//   constructor(x,y ){
+//     this.x = x ;
+//     this.y = y;
+//   }
+// static distance(a,b){
+//   const dx = a.x - b.x;
+//   console.log(a.x,b.x)
+//   console.log(dx);
 // }
 // }
-
-
-// const Nitin = new Student( "vikas","singh",35);
-
-// console.log(Nitin.marklate());
-// console.log(Nitin.marklate());
-// console.log(Nitin.marklate());
-// console.log(Nitin.marklate());
+// const p1 = new Point( 8,9);
+// const p2 = new Point( 7,10);
+// console.log(Point.distance(p1,p2));
 
 
 
-class Point {
-  constructor(x,y ){
-    this.x = x ;
-    this.y = y;
-  }
-static distance(a,b){
-  const dx = a.x - b.x;
-  console.log(a.x,b.x)
-  console.log(dx);
-}
-}
-const p1 = new Point( 8,9);
-const p2 = new Point( 7,10);
-console.log(Point.distance(p1,p2));
+
+
