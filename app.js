@@ -141,6 +141,11 @@
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
+const host = 'localhost';
+app.listen( port , host , () => {
+    console.log(`working on port ${port}....`);
+});
+
 app.get("/", (req,res) => {
     res.send("helloo world");
 });
@@ -148,7 +153,4 @@ app.get("/", (req,res) => {
 
 
 
-app.listen( port , () => {
-    console.log(`working on port ${port}....`);
-});
 
