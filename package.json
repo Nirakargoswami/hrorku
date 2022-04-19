@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js "
+
   },
   "author": "nirakar",
   "license": "ISC",
@@ -17,5 +18,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },"engines": {
+    "node" : "17.9.0" 
   }
+
+
 }
